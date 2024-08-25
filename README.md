@@ -17,7 +17,7 @@
 
 ## Overview
 
-BoiKothon is a web application designed for book enthusiasts to share posts, join groups, and create communities around shared interests in literature. The platform allows users to discuss books, create posts, join or create groups, and interact with others who share similar interests. It was my RUET 3rd Year Odd Semester Web Development Project.
+BoiKothon is a web application designed for book enthusiasts to share posts, join groups, and create communities around shared interests in literature. The platform allows users to discuss books, create posts, join or create groups, and interact with others who share similar interests.
 
 ## Features
 
