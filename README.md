@@ -67,7 +67,8 @@ BoiKothon is a web application designed for book enthusiasts to share posts, joi
 
 ## Video Demo
 
-[![Watch the video]](https://github.com/rizvi19/BoiKothon/blob/main/assets/BoiKothon.mp4)
+https://github.com/user-attachments/assets/42781b28-4c46-4558-a704-830086cbfdb0
+
 
 Click the image above to watch a walkthrough of BoiKothon.
 
