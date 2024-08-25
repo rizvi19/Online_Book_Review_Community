@@ -1,8 +1,6 @@
 # BoiKothon
 
 
-# BoiKothon
-
 ## Table of Contents
 1. [Overview](#overview)
 2. [Features](#features)
@@ -44,24 +42,32 @@ BoiKothon is a web application designed for book enthusiasts to share posts, joi
 
 ## Screenshots
 
-### Home Page
-![Home Page](path_to_image/home.png)
+### Home Pages
+![Home Page when Logged Out](https://github.com/rizvi19/BoiKothon/blob/main/assets/loggedOutHome.png)
+![Home Page when Logged In](https://github.com/rizvi19/BoiKothon/blob/main/assets/loggedInHome.png)
 
-### Groups Page
-![Groups Page](path_to_image/groups.png)
+### Sign Up Page
+![Sign Up Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/signup.png)
+
+### Login Page
+![Login Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/login.png)
+
+### Groups Pages
+![Groups Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/groups.png)
+![Inside Groups Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/inGroup.png)
+![New Group](https://github.com/rizvi19/BoiKothon/blob/main/assets/newGroup.png)
+
 
 ### Post Page
-![Post Page](path_to_image/post.png)
+![Post Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/post.png)
 
-### Profile Page
-![Profile Page](path_to_image/profile.png)
 
 ### Additional Pages
 - Add more screenshots here as needed...
 
 ## Video Demo
 
-[![Watch the video](path_to_thumbnail/image.png)](link_to_video)
+[![Watch the video]](https://github.com/rizvi19/BoiKothon/blob/main/assets/BoiKothon.mp4)
 
 Click the image above to watch a walkthrough of BoiKothon.
 
