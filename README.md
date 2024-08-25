@@ -7,11 +7,11 @@
 3. [Tech Stack](#tech-stack)
 4. [Video Demo](#video-demo)
 5. [Screenshots](#screenshots)
-    - [Home Page](#home-page)
-    - [Groups Page](#groups-page)
+    - [Home Pages](#home-pages)
+    - [Sign Up Page](#sign-up-page)
+    - [Login Page](#login-page)
+    - [Groups Pages](#groups-pages)
     - [Post Page](#post-page)
-    - [Profile Page](#profile-page)
-    - [Additional Pages](#additional-pages)
 6. [Acknowledgements](#acknowledgements)
 7. [Contact](#contact)
 
@@ -61,9 +61,6 @@ Click the Video above to watch a walkthrough of BoiKothon.
 ### Post Page
 ![Post Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/post.png)
 
-
-### Additional Pages
-- Add more screenshots here as needed...
 
 
 ## Acknowledgements
