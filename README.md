@@ -43,20 +43,30 @@ Click the Video above to watch a walkthrough of BoiKothon.
 ## Screenshots
 
 ### Home Pages
-![Home Page when Logged Out](https://github.com/rizvi19/BoiKothon/blob/main/assets/loggedOutHome.png)
-![Home Page when Logged In](https://github.com/rizvi19/BoiKothon/blob/main/assets/loggedInHome.png)
+
+![image](https://github.com/user-attachments/assets/c0fa7caa-146d-4fb5-a2ca-d94122bd1af9)
+
+
+![image](https://github.com/user-attachments/assets/812f5fbd-c721-4d46-bde6-cad482a6ac0a)
+
 
 ### Sign Up Page
-![Sign Up Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/signup.png)
+![image](https://github.com/user-attachments/assets/68fe09c5-281a-4869-a1cd-16f4786621c8)
+
 
 ### Login Page
-![Login Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/login.png)
+![image](https://github.com/user-attachments/assets/a38dc35c-0f57-4923-8b24-c48160350a63)
+
 
 ### Groups Pages
-![Groups Page]![image](https://github.com/user-attachments/assets/49cfb87b-a423-4f9c-9750-6b10a25acd25)
-)
-![Inside Groups Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/inGroup.png)
-![New Group](https://github.com/rizvi19/BoiKothon/blob/main/assets/newGroup.png)
+![image](https://github.com/user-attachments/assets/65954253-6877-4677-834c-01932680b650)
+
+![image](https://github.com/user-attachments/assets/64ee7f9f-f44f-43ba-8e78-74f02febee12)
+
+![image](https://github.com/user-attachments/assets/3b176abb-8c0e-42a0-8a76-1757fa774f15)
+
+![image](https://github.com/user-attachments/assets/0b4b2d04-33b4-4dc9-b897-88f8a3cf5c3e)
+
 
 
 ### Post Page
