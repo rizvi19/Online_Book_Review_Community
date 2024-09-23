@@ -53,13 +53,15 @@ Click the Video above to watch a walkthrough of BoiKothon.
 ![Login Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/login.png)
 
 ### Groups Pages
-![Groups Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/groups.png)
+![Groups Page]![image](https://github.com/user-attachments/assets/49cfb87b-a423-4f9c-9750-6b10a25acd25)
+)
 ![Inside Groups Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/inGroup.png)
 ![New Group](https://github.com/rizvi19/BoiKothon/blob/main/assets/newGroup.png)
 
 
 ### Post Page
-![Post Page](https://github.com/rizvi19/BoiKothon/blob/main/assets/post.png)
+
+![image](https://github.com/user-attachments/assets/0f7103de-b8f5-41d3-868e-c9638389152f)
 
 
 
