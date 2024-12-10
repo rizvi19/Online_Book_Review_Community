@@ -1,0 +1,17 @@
+{% extends "groups/group_base.html" %}
+{% load bootstrap3 %}
+
+{% block group_content %}
+<!-- <h4>Create A New Group</h4>
+{% block pregroup %}
+<div class="card border-0 mb-3" style="max-width: 100%; padding: 10px; margin-top: 20px;"></div>
+    <div class="card-header" style="padding: 5px 10px; font-size: 1.25rem;">Create A New Group</div>   
+</div>
+{% endblock %} -->
+
+  <form method="POST" action="{% url 'groups:create' %}" id="groupForm">
+  	{% csrf_token %}
+  	{% bootstrap_form form %}
+  	<input type="submit" value="Create" class="btn btn-primary btn-large">
+  </form>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "groups/group_base.html" %}
+
+{% block pregroup %}
+<div class="card border-0 mb-3" style="max-width: 100%; padding: 10px;">
+  <div class="card-header" style="padding: 5px 10px; font-size: 1.25rem;">{{ group.name }}</div>
+  <div class="card-body" style="padding: 10px;">
+    <h4 class="card-title" style="margin-bottom: 10px; font-size: 1rem;">Member Count: {{ group.members.count }}</h4>
+    <div class="content" style="text-align: center;">
+      {% if user in group.members.all %}
+      <a href="{% url 'groups:leave' slug=group.slug %}" class="btn btn-warning btn-sm">
+        <span class="glyphicon glyphicon-remove-circle"></span> Leave Group
+      </a>
+      {% else %}
+      <a href="{% url 'groups:join' slug=group.slug %}" class="btn btn-success btn-sm">
+        <span class="glyphicon glyphicon-ok-circle"></span> Join Group
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+
+{% block group_content %}
+<div class="col-md-8">
+  {% if group.posts.count == 0 %}
+  <div class="card border-secondary mb-3">
+    <div class="card-body">
+      <h4 class="card-title">No Posts Yet</h4>
+      <p class="card-text">This group doesn't have any posts yet. Be the first to post!</p>
+    </div>
+  </div>
+  {% else %}
+  {% for post in group.posts.all %}
+  <div class="card border-info mb-3">
+    <div class="card-body">
+      {% include "posts/_post.html" %}
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+</div>
+{% endblock %}
