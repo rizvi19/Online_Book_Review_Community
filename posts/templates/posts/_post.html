@@ -1,0 +1,89 @@
+<div class="card mb-3">
+	<h3 class="card-header">{{ post.user.username }}</h3>
+	<div class="card-body">
+	  <h5 class="card-title">{{ post.message_html|safe }}</h5>
+	  <h6 class="card-subtitle text-muted">
+		Posted in: 
+		{% if post.group %}
+		<span><a href="#">{{ post.group.name }}</a></span>
+		{% endif %}
+	  </h6>
+	</div>
+  
+	<!-- Display the uploaded image if it exists -->
+	{% if post.image %}
+	<img src="{{ post.image.url }}" alt="Post Image" class="card-img-top img-fluid" style="max-height: 400px; object-fit: cover;">
+	{% endif %}
+  
+	<!-- <div class="card-body">
+	  <p class="card-text">{{ post.message_html|safe }}</p>
+	</div> -->
+  
+	<ul class="list-group list-group-flush">
+	  <li class="list-group-item">
+		<div class="vote-buttons">
+		  <!-- <button class="upvote-button btn btn-success" data-post-id="{{ post.id }}">Upvote</button>
+		  <span id="upvote-count-{{ post.id }}">{{ post.upvotes }}</span>
+		  <button class="downvote-button btn btn-danger" data-post-id="{{ post.id }}">Downvote</button>
+		  <span id="downvote-count-{{ post.id }}">{{ post.downvotes }}</span> -->
+
+
+			{% if user.is_authenticated and post.user == user and not hide_delete %}
+			<a href="{% url 'posts:delete' pk=post.pk %}" title="Delete" class="btn btn-danger">
+			  Delete
+			</a>
+			{% endif %}
+
+
+		</div>
+
+
+
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.upvote-button, .downvote-button').on('click', function () {
+            const button = $(this);
+            const postId = button.data('post-id');
+            const voteType = button.hasClass('upvote-button') ? 'up' : 'down';
+
+            $.ajax({
+                url: `/vote/${postId}/`,
+                method: 'POST',
+                data: {
+                    vote_type: voteType,
+                    csrfmiddlewaretoken: '{{ csrf_token }}'
+                },
+                success: function (data) {
+                    $(`#upvote-count-${postId}`).text(data.upvotes);
+                    $(`#downvote-count-${postId}`).text(data.downvotes);
+                },
+                error: function (error) {
+                    alert(error.responseJSON.error || 'An error occurred.');
+                }
+            });
+        });
+    });
+</script>
+
+
+
+
+
+	  </li>
+	</ul>
+  
+	<!-- <div class="card-body">
+	  {% if user.is_authenticated and post.user == user and not hide_delete %}
+	  <a href="{% url 'posts:delete' pk=post.pk %}" title="Delete" class="btn btn-danger">
+		Delete
+	  </a>
+	  {% endif %}
+	</div> -->
+  
+	<div class="card-footer text-muted">
+	  Posted on <a href="{% url 'posts:single' username=post.user.username pk=post.pk %}">{{ post.created_at }}</a>
+	</div>
+  </div>
+  

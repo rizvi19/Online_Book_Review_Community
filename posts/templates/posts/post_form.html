@@ -1,0 +1,25 @@
+{% extends "posts/post_base.html" %}
+{% load bootstrap3 %}
+
+{% block post_content %}
+
+{% block pregroup %}
+<div class="card border-0 mb-3" style="max-width: 100%; padding: 10px; margin-top: 20px;"></div>
+    <div class="card-header" style="padding: 5px 10px; font-size: 1.25rem;">Create New Post</div>   
+</div>
+{% endblock %}
+
+<div style="margin-left: 20px;"></div>
+        <form method="POST" action="{% url 'posts:create' %}" id="postForm" enctype="multipart/form-data">
+                {% csrf_token %}
+                <fieldset>
+                        <legend>Post Details</legend>
+                        
+                        {% csrf_token %}
+                        {% bootstrap_form form %}
+                        
+                        <button type="submit" class="btn btn-primary">Post</button>
+                </fieldset>
+        </form>
+</div>
+{% endblock %}
