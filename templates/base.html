@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+   
+    <meta charset="utf-8">
+    <title>BoiKothon</title>
+    <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="{% static 'boikothon/css/master.css'%}">
+    <!-- <link rel="stylesheet" href="{% static 'css/master.css'%}"> -->
+  
+
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    {% comment %} <link rel="stylesheet" href="{% static 'boikothon/css/master.css'%}"> {% endcomment %}
+
+  
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}BoiKothon{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/theme.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    {% block extra_css %}
+    <!-- Extra stylesheets can go here -->
+    {% endblock %}
+
+
+  </head>
+
+
+  <body>
+
+    <!-- <nav class="navbar  mynav" role="navigation" id="navbar">
+    			<div class="container">
+
+            <a class="navbar-brand mynav" href="{% url 'home' %}">BoiKothon</a>
+
+    					<ul class="nav navbar-nav navbar-right">
+    						{% if user.is_authenticated %}
+                      <li><a href="{% url 'posts:create' %}" class="btn btn-simple">Post</a></li>
+                      <li><a href="{% url 'groups:all' %}" class="btn btn-simple">Groups</a></li>
+                      <li><a href="{% url 'groups:create' %}" class="btn btn-simple">Create Group</a></li>
+        {% comment %} <li><a href="{% url 'accounts:logout' %}" class="btn btn-simple">Log out</a></li> {% endcomment %}
+                      <li><a href="{% url 'logout' %}" class="btn btn-simple">Log out</a></li> 
+    						{% else %}
+    						      <li><a href="{% url 'groups:all' %}"class="btn btn-simple">Groups</a></li>
+    						      <li><a href="{% url 'accounts:login' %}" class="btn btn-simple">Log in</a></li>
+    						      <li><a href="{% url 'accounts:signup' %}" class="btn btn-simple">Sign up</a></li>
+    						{% endif %}
+    					</ul>
+
+
+
+    			</div>
+    		</nav> -->
+
+
+
+
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'home' %}">BoiKothon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav me-auto">
+                {% if user.is_authenticated %}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'posts:create' %}">Post</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'groups:all' %}">Groups</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'groups:create' %}">Create Group</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'logout' %}">Log out</a>
+                  </li>
+                {% else %}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'groups:all' %}">Groups</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'accounts:login' %}">Log in</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'accounts:signup' %}">Sign up</a>
+                  </li>
+                {% endif %}
+              </ul>
+              <!-- <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-secondary" type="submit">Search</button>
+              </form> -->
+            </div>
+          </div>
+        </nav>
+        
+
+        
+        <div class="container mycontent">
+          {% block content %}
+
+          {% endblock %}
+
+        </div>
+
+
+
+        <script>
+          const csrftoken = '{{ csrf_token }}';
+          $.ajaxSetup({
+              headers: { "X-CSRFToken": csrftoken }
+          });
+      </script>
+      
+
+
+
+
+
+<canvas id="canvas"></canvas>
+
+
+
+  </body>
+  {% comment %} <script src="{% static "boikothon/js/master.js"%}" type="text/javascript" ></script> {% endcomment %}
+</html>
