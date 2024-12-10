@@ -44,17 +44,20 @@ Click the Video above to watch a walkthrough of BoiKothon.
 
 ### Home Pages
 
-![image](https://github.com/user-attachments/assets/c0fa7caa-146d-4fb5-a2ca-d94122bd1af9)
+![image](https://github.com/user-attachments/assets/164f9e28-ea34-46f9-86a2-bebfa7040c6e)
+
 
 ![image](https://github.com/user-attachments/assets/7ad5d211-b3f5-43c0-9ee9-160e77644fdc)
 
 
 ### Sign Up Page
-![image](https://github.com/user-attachments/assets/68fe09c5-281a-4869-a1cd-16f4786621c8)
+![image](https://github.com/user-attachments/assets/2764966b-fb45-473b-9c99-82c2212a4f54)
+
 
 
 ### Login Page
-![image](https://github.com/user-attachments/assets/a38dc35c-0f57-4923-8b24-c48160350a63)
+![image](https://github.com/user-attachments/assets/5e078031-7861-41ea-891f-9b045e4fe67c)
+
 
 
 ### Groups Pages
