@@ -46,8 +46,7 @@ Click the Video above to watch a walkthrough of BoiKothon.
 
 ![image](https://github.com/user-attachments/assets/c0fa7caa-146d-4fb5-a2ca-d94122bd1af9)
 
-
-![image](https://github.com/user-attachments/assets/812f5fbd-c721-4d46-bde6-cad482a6ac0a)
+![image](https://github.com/user-attachments/assets/7ad5d211-b3f5-43c0-9ee9-160e77644fdc)
 
 
 ### Sign Up Page
@@ -59,19 +58,21 @@ Click the Video above to watch a walkthrough of BoiKothon.
 
 
 ### Groups Pages
-![image](https://github.com/user-attachments/assets/65954253-6877-4677-834c-01932680b650)
+![image](https://github.com/user-attachments/assets/ac4d49b9-ea64-463c-b805-05b18834f48d)
 
-![image](https://github.com/user-attachments/assets/64ee7f9f-f44f-43ba-8e78-74f02febee12)
 
-![image](https://github.com/user-attachments/assets/3b176abb-8c0e-42a0-8a76-1757fa774f15)
+![image](https://github.com/user-attachments/assets/80371734-7438-4787-b7f2-8dd7e5015267)
 
-![image](https://github.com/user-attachments/assets/0b4b2d04-33b4-4dc9-b897-88f8a3cf5c3e)
+
+![image](https://github.com/user-attachments/assets/bcffcee8-6f2d-4cad-a853-507f96e6582a)
+
 
 
 
 ### Post Page
 
-![image](https://github.com/user-attachments/assets/0f7103de-b8f5-41d3-868e-c9638389152f)
+![image](https://github.com/user-attachments/assets/2b4a68f7-b0c1-4ecc-9f01-5a8db5eb4378)
+
 
 
 
