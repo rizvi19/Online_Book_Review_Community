@@ -35,6 +35,10 @@ BoiKothon is a web application designed for book enthusiasts to share posts, joi
 - manage.py migrate
 - manage.py runserver 8080
 
+Make sure Python is installed in the system. After that all mentioned packages should be installed. Assuring that, first run \textbf{manage.py makemigrations} as this is django project. Then run manage.py migrate
+and run manage.py runserver 8080. Then hover the http://127.0.0.1:8080/, click Follow Link. In the browser the site will be open. 
+
+
 ## Features
 
 - **User Authentication**: Sign up, log in, and log out functionalities.
