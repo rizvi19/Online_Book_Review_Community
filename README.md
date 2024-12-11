@@ -34,8 +34,9 @@ BoiKothon is a web application designed for book enthusiasts to share posts, joi
 - **Database**: SQLite (for development)
 
 ## Video Demo
+https://github.com/user-attachments/assets/1ff65165-c59a-46cb-b76d-3fa28f6743f8
 
-https://github.com/user-attachments/assets/42781b28-4c46-4558-a704-830086cbfdb0
+
 
 Click the Video above to watch a walkthrough of BoiKothon.
 
