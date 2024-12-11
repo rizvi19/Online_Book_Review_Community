@@ -3,7 +3,7 @@
 
 ## Table of Contents
 1. [Overview](#overview)
-2. [Features](#features)
+2. [Requrements, Commands, Features](#requirements)
 3. [Tech Stack](#tech-stack)
 4. [Video Demo](#video-demo)
 5. [Screenshots](#screenshots)
@@ -18,6 +18,22 @@
 ## Overview
 
 BoiKothon is a web application designed for book enthusiasts to share posts, join groups, and create communities around shared interests in literature. The platform allows users to discuss books, create posts, join or create groups, and interact with others who share similar interests.
+
+
+
+## Requirements
+
+- pip install django
+- pip install pillow
+- pip install misaka
+- pip install django-bootstrap3
+- pip install django-braces
+
+## Commands
+
+- manage.py makemigrations
+- manage.py migrate
+- manage.py runserver 8080
 
 ## Features
 
